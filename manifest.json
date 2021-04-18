@@ -2,5 +2,9 @@
   "name": "Emoji Generator",
   "id": "900176365073100035",
   "api": "1.0.0",
-  "main": "code.js"
+  "main": "code.js",
+  "menu": [
+    { "name": "Generate Emojis Randomly", "command": "random" },
+    { "name": "Generate Emojis in Order", "command": "ordered" }
+  ]
 }
